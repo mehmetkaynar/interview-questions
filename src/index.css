@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  /* background: linear-gradient(207deg, rgb(18, 17, 15) 30%, rgb(92, 94, 91) 77%); */
+  background: linear-gradient(
+    -45deg,
+    #086071,
+    #b13915,
+    #279cc0,
+    #506408,
+    #d4d98e
+  );
+  height: 100vh;
+}
+
+.container {
+  /* box-shadow: 11px 15px 1px rgb(242, 193, 150); */
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(134, 177, 18, 0.3) 10px 10px,
+    rgba(41, 153, 164, 0.2) 15px 15px, rgba(47, 158, 166, 0.1) 20px 20px,
+    rgba(122, 226, 222, 0.05) 25px 25px;
+}
+
+.buttonArrowdown {
+  border-radius: 20%;
+  padding: 0.4rem;
+  background-color: rgb(112, 197, 243);
+}
+
+.buttonArrowup {
+  border-radius: 20%;
+  padding: 0.4rem;
+  background-color: rgb(186, 112, 243);
+}
